@@ -1,0 +1,9 @@
+2025-04-29 17:46:23,664 | INFO | Successful square root 4 ** 0.5
+2025-04-29 17:46:23,665 | INFO | Successful square root 16 ** 0.5
+2025-04-29 17:46:23,665 | ERROR | Negative number
+Traceback (most recent call last):
+  File "C:\Users\Марс\Desktop\Python\urbanunivers\module_logging_001.py", line 20, in sqrt
+    if negative_number(a):
+  File "C:\Users\Марс\Desktop\Python\urbanunivers\module_logging_001.py", line 14, in negative_number
+    raise NegativeError("You can't take the root of a negative number")
+NegativeError: You can't take the root of a negative number
